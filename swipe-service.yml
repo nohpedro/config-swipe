@@ -12,7 +12,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5433/review-db
     username: admin
-    password: admin
+    password: "{cipher}b4886e7a3b512351e2ee28a530d0b3873accb8c0a3b719dd1291481d0e516e6e"
 
   jpa:
     hibernate:
